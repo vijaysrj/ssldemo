@@ -1,0 +1,9 @@
+
+
+
+server:
+   ssl:
+     key-store: classpath:mydemocertificate.p12
+     key-store-password: mydemo
+     key-alias: mydemocertificate
+   port: 8443
